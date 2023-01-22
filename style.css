@@ -1,0 +1,90 @@
+h1 {
+    color: #A44A3F;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page-title {
+    text-shadow: 4px 4px #F19C79;
+}
+
+.favorite-section {
+    background-color: #F6F4D2;
+    border: 3px black double;
+    margin: 8px;
+    padding: 15px;
+}
+
+.section-header {
+    font-size: 32px;
+    color: #A44A3F;
+}
+
+body {
+    background-color: #CBDFBD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#favorite-movie-title {
+    font-style: italic;
+    color: #6b705c;
+}
+
+#favorite-music-name {
+    font-weight: bold;
+    color: #83c5be;
+}
+
+#most-favorite-food {
+    text-transform: uppercase;
+    color: red;
+}
+
+.favorite-image {
+    border-radius: 8px;
+    border: 10px solid #CBDFBD;
+    padding: 5px;
+}
+
+p {
+    color: #F19C79;
+    font-size: 25px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: square;
+    color: #F19C79;
+}
+
+ul {
+    text-decoration: underline;
+}
+
+table {
+    width: 600px;
+}
+
+td, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background: #CBDFBD;
+    width: 100px;
+    color: #A44A3F;
+}
+
+tr:nth-child(even) {
+    color: #6b705c;
+}
+
+tr:nth-child(odd) {
+    color: #6b705c;
+}
